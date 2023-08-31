@@ -17,3 +17,6 @@
 0:0:0:0:0:0:0:1 - - [30/Aug/2023:20:06:18 -0500] "GET /rest-app/ws/greeting HTTP/1.1" 200 49
 127.0.0.1 - - [30/Aug/2023:20:06:29 -0500] "HEAD /rest-app/ws/greeting/Loonycorn HTTP/1.1" 200 -
 0:0:0:0:0:0:0:1 - - [30/Aug/2023:20:08:06 -0500] "GET /rest-app/ws/greeting/Loonycorn HTTP/1.1" 200 60
+0:0:0:0:0:0:0:1 - - [30/Aug/2023:23:47:59 -0500] "GET /rest-app/bookservice/getbooks HTTP/1.1" 200 398
+127.0.0.1 - - [30/Aug/2023:23:51:35 -0500] "GET /rest-app/bookservice/getbooks HTTP/1.1" 200 398
+127.0.0.1 - - [30/Aug/2023:23:56:36 -0500] "GET /rest-app/bookservice/getbooks HTTP/1.1" 200 398
