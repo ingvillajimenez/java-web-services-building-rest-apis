@@ -4,13 +4,16 @@ import jakarta.ws.rs.GET; // @interface GET
 import jakarta.ws.rs.Path; // @interface Path
 import jakarta.ws.rs.core.Response; // abstract class Response
 
-@Path("/greeting")
+@Path("/ws")
 public class HelloWorldService {
 
     @GET
-    public String myGreeting() {
+    @Path("/greeting")
+    public Response myGreeting() {
 
-        return "Welcome to the world of REST APIs in Java!";
+        String message = "Welcome to the world of REST APIs in Java!";
+
+        return Response.status(200).entity(message).build();
     }
 
 }

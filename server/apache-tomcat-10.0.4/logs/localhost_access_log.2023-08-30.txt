@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [30/Aug/2023:18:23:44 -0500] "GET / HTTP/1.1" 200 11163
+0:0:0:0:0:0:0:1 - - [30/Aug/2023:18:23:58 -0500] "GET /rest-app/greeting HTTP/1.1" 200 42
+127.0.0.1 - - [30/Aug/2023:18:56:36 -0500] "GET /rest-app/greeting HTTP/1.1" 200 42
+127.0.0.1 - - [30/Aug/2023:18:58:23 -0500] "HEAD /rest-api/ws/greeting HTTP/1.1" 404 -
+0:0:0:0:0:0:0:1 - - [30/Aug/2023:19:14:56 -0500] "GET /rest-app/ws/greeting HTTP/1.1" 200 42
+127.0.0.1 - - [30/Aug/2023:19:17:24 -0500] "GET /rest-app/ws/greeting HTTP/1.1" 200 42
+127.0.0.1 - - [30/Aug/2023:19:18:08 -0500] "HEAD /rest-app/ws/greeting HTTP/1.1" 200 -
